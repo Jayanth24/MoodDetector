@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_above="@+id/button1"
+        android:contentDescription="Image with faces to analyze" />
+
+    <TextView
+        android:id="@+id/textarea1"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:contentDescription="Text view for information about the age and gender" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/button2"
+        android:text="Browse for a face image" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="267dp"
+        android:text="Get suggested emotional activities" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_above="@+id/button2"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toEndOf="@+id/button1"
+        android:text="Get suggested age activities" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginEnd="-200dp"
+        android:layout_marginBottom="0dp"
+        android:text="Get suggested gender activities" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="104dp"
+        android:layout_height="256dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="-629dp"
+        android:contentDescription="ListView to display emotions" />
+
+    <ListView
+        android:id="@+id/listview2"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listview1"
+        android:layout_alignTop="@+id/listview1"
+        android:layout_alignEnd="@+id/listview1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="-101dp"
+        android:layout_marginBottom="-258dp"
+        android:contentDescription="ListView to display suggested activities by emotion"/>
+
+    <ListView
+        android:id="@+id/listview3"
+        android:layout_width="97dp"
+        android:layout_height="264dp"
+        android:layout_alignEnd="@+id/listview2"
+        android:layout_alignBottom="@+id/listview2"
+        android:layout_marginEnd="-97dp"
+        android:layout_marginBottom="-2dp"
+        android:contentDescription="ListView to display suggested actions by age" />
+
+
+    <ListView
+        android:id="@+id/listview4"
+        android:layout_width="106dp"
+        android:layout_height="259dp"
+        android:layout_alignEnd="@+id/listview3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-108dp"
+        android:layout_marginBottom="11dp"
+        android:contentDescription="ListView to display suggested actions by gender" />
+
+</RelativeLayout>
+
+
+
+
+
