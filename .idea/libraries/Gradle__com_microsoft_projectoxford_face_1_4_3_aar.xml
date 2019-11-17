@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.projectoxford:face:1.4.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cb6a1953d9517cfbb7adf8f4b4fd86c/face-1.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cb6a1953d9517cfbb7adf8f4b4fd86c/face-1.4.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
